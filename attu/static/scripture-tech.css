@@ -1,0 +1,34 @@
+body {
+    background-color: #111111;
+    font-family: 'Ubuntu', serif;
+    color: #A9EF6F;
+}
+
+span.verse-no {
+    color: #888888;
+    font-size: 80%;
+}
+
+span.verse-no:after {
+    content: ".";
+}
+
+.content {
+    width: 7.25in;
+    margin: 0 auto;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    font-size: 20pt;
+    padding: 0.25in;
+}
+
+div.reference {
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 0.3in;
+    color: #BCEF91;
+}
+
+p {
+    margin-bottom: 0.25in;
+}

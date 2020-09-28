@@ -1,0 +1,39 @@
+body {
+    background-image: url('wood.jpg');
+    background-repeat: repeat;
+    font-family: 'Ubuntu', serif;
+    color: #565B78;
+}
+
+span.verse-no {
+    color: #888888;
+    font-size: 80%;
+}
+
+span.verse-no:after {
+    content: ".";
+}
+
+.content {
+    width: 7.25in;
+    margin: 0 auto;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20pt;
+    padding: 0.25in;
+}
+
+.reference {
+    font-family: 'Lobster', serif;
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 2px 2px #888888;
+    margin-bottom: 0.3in;
+    color: #202B68;
+}
+
+p {
+    margin-bottom: 0.25in;
+}
