@@ -26,12 +26,9 @@ span.verse-no:after {
 }
 
 .reference {
-    font-family: 'Lobster', serif;
     text-align: center;
-    font-size: 300%;
-    text-shadow: 2px 2px #888888;
     margin-bottom: 0.3in;
-    color: #202B68;
+    font-style: italic;
 }
 
 p {

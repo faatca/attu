@@ -4,18 +4,17 @@
   <title>{{ p.reference }}</title>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='reset.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='scripture-' + style + '.css') }}">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
 </head>
 <body>
   <div class="content">
-    <div class="reference">{{ p.reference }}</div>
     {% for v in p.verses %}
     <p>
       <span class="verse-no">{{ v.no }}</span>
       {{ v.text }}
     </p>
     {% endfor %}
+    <div class="reference">{{ p.reference }}</div>
   </div>
 </body>
 </html>

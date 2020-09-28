@@ -1,3 +1,4 @@
 *.conf
 lds-scriptures-2_5_1-xml
 *.pyc
+venv
