@@ -5,6 +5,7 @@ import sqlite3
 
 
 def parse_reference(text):
+    text = text.replace('–', '-').replace('—', '-')
     book_e = re.compile(r"(?P<book>.*[^\W\d_])\s(?P<reference>\d.*)", re.U)
 
     match = book_e.search(text)
