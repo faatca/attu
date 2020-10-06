@@ -1,7 +1,7 @@
 body {
     background-image: url('wood.jpg');
     background-repeat: repeat;
-    font-family: 'Ubuntu', serif;
+    font-family: 'Georgia', serif;
     color: #565B78;
 }
 
@@ -15,22 +15,23 @@ span.verse-no:after {
 }
 
 .content {
-    width: 7.25in;
+    width: 70vw;
     margin: 0 auto;
-    margin-top: 1in;
-    margin-bottom: 1in;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     background-color: white;
+    font-size: calc(12px + 1.5vw);
     border-radius: 10px;
-    font-size: 20pt;
-    padding: 0.25in;
+    padding: 4vw;
 }
 
 .reference {
     text-align: center;
     margin-bottom: 0.3in;
     font-style: italic;
+    font-size: calc(10px + 1.5vw);
 }
 
 p {
-    margin-bottom: 0.25in;
+    margin-bottom: 1.5vw;
 }
